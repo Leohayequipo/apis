@@ -46,17 +46,17 @@
     }
     $books= [
         1=>[
-            'titulo'=>"aaa",
+            'titulo'=>"11111111",
             'id_autor'=>"2",
             'id_genero'=>"2",
         ],
         2=>[
-            'titulo'=>"bbb",
+            'titulo'=>"222222",
             'id_autor'=>"1",
             'id_genero'=>"1",
         ],
         3=>[
-            'titulo'=>"cc",
+            'titulo'=>"333333333",
             'id_autor'=>"2",
             'id_genero'=>"2",
         ],

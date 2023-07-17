@@ -1,6 +1,8 @@
 <?php
 
 $matches=[];
+echo "probando";
+
 echo $_SERVER["REQUEST_URI"];
   // Excepcion para las  url principal sea index.html
   if (in_array( $_SERVER["REQUEST_URI"], [ '/index.html', '/', '' ] )) {

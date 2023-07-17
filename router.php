@@ -2,11 +2,12 @@
 
 $matches=[];
 echo "probando";
-
+echo file_get_contents( 'index.html' );
 echo $_SERVER["REQUEST_URI"];
+die;
   // Excepcion para las  url principal sea index.html
   if (in_array( $_SERVER["REQUEST_URI"], [ '/index.html', '/', '' ] )) {
-    echo file_get_contents( 'index.html' );
+   
     die;
 }
 //if(preg_match('/\/([^\/]+)\/([^\/]+)/',$_SERVER["REQUEST_URI"],$matches))
